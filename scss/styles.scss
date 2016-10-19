@@ -6,14 +6,12 @@ $accent: #FF2C63;
 $grey: #8E9393;
 
 .no-bg{
-  //background: transparent !important;
+  background: transparent !important;
 }
 .in-text{
-  //display: inline-block !important;
   margin: 0;
   font-size: 20px;
   color: #222222;
-
 }
 
 .view-browser > a, .view-date{
@@ -30,10 +28,30 @@ $grey: #8E9393;
   font-weight: bold;
 }
 
+.main-body-p{
+  color: $grey;
+  font-size: 18px;
+  line-height: $lead-line-height;
+}
+
 table.body .columns,
 table.body .column {
   padding-left: 0 !important;
   padding-right: 0 !important;
-  //padding-bottom: 0 !important;
 }
+
+table.button {
+  table {
+    td {
+      padding: 5px 15px;
+      a {
+        font-family: $body-font-family;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+      }
+    }
+  }
+}
+
 
