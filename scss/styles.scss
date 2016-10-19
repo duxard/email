@@ -1,0 +1,39 @@
+@import "foundation";
+
+//colors:
+$bg: #EAECED;
+$accent: #FF2C63;
+$grey: #8E9393;
+
+.no-bg{
+  //background: transparent !important;
+}
+.in-text{
+  //display: inline-block !important;
+  margin: 0;
+  font-size: 20px;
+  color: #222222;
+
+}
+
+.view-browser > a, .view-date{
+  color: $grey;
+}
+
+.view-browser > a{
+  text-decoration: underline;
+}
+
+.view-date{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+table.body .columns,
+table.body .column {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  //padding-bottom: 0 !important;
+}
+
